@@ -43,20 +43,20 @@ const About = () => (
             <button className="certificate">
             <a href = "https://certificates.ccbp.in/intensive/javascript-essentials?id=DFFKCSKOIW" rel = "noreferrer" target="_blank">
                 <img className ="certificate-logo" src = {JsCert} alt = "certificate" />
-                <p className = "cert-name">Javascript Certification By Nxt</p>
             </a>
+            <p className = "cert-name">Javascript Certification By Nxt</p>
             </button>
             <button className="certificate">
             <a href = "https://certificates.ccbp.in/intensive/node-js?id=KKYIYWCPQP" rel = "noreferrer" target="_blank">
                 <img className ="certificate-logo" src = {NodeJs} alt = "certificate" />
-                <p className = "cert-name">NodeJs Certification By Nxt</p>
             </a>
+            <p className = "cert-name">NodeJs Certification By Nxt</p>
             </button>
             <button className="certificate">
             <a href = "https://certificates.ccbp.in/intensive/programming-foundations?id=QTJLJKYPQT" rel = "noreferrer" target="_blank">
                 <img className ="certificate-logo" src = {PythonCert} alt = "certificate" />
-                <p className = "cert-name">Python Certification By Nxt</p>
             </a>
+            <p className = "cert-name">Python Certification By Nxt</p>
             </button>
         </div>
     </div>
