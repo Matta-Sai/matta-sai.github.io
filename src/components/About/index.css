@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+VIC+Guides&display=swap');
+.about-container {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+    height: 100vh;
+    color: #ffffff;
+    font-family: "open sans", sans-serif;
+}
+
+.about-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.about-desc {
+    font-size: 16px;
+}
+
+.certificates-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.certificate-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.certificate {
+    width: 15%;
+    border-radius: 36px;
+    margin: 12px;
+    transition: ease-in-out 0.5s;
+    border: none;
+    outline: none;
+    background-color: transparent;   
+}
+
+.certificate-logo {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.certificate :hover {
+    transform: scale(1.1);
+    transition: ease-in-out 0.5s;
+}
+
+.cert-name {
+    color: #ffffff;
+    font-family: "open sans", sans-serif;
+    font-size: 14px;
+}

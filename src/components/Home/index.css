@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+VIC+Guides&display=swap');
+.home-container {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+    height: 100vh;
+}
+
+.home-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    font-family: "Open Sans";
+    height: 100%;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.name {
+    color: #ffffff;
+    font-size: 68px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.profession-sub {
+    color:gray;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.profession {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+.links-container {
+    display: flex;
+    flex-direction: row;  
+}
+
+.link-item {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 8px;
+    color: red;
+}
+
+.link-icon {
+    color: #ffffff;
+    transition: transform 0.7s ease, color 0.7s ease;
+}
+
+.link-icon:hover {
+    color: #4f95f7;
+    transform: scale(1.2);
+}
