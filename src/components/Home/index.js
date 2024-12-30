@@ -1,6 +1,5 @@
 import {Component} from "react"
 import { BsFacebook ,BsInstagram,BsLinkedin,BsGithub  } from "react-icons/bs";
-import Header from "../Header"
 import "./index.css"
 
 
@@ -28,7 +27,6 @@ class Home extends Component {
 
     randomizeProfession = () => {
         const randomNumber = Math.floor(Math.random() * (professionsList.length))
-        console.log(professionsList[randomNumber])
         this.setState({randomProfession : professionsList[randomNumber]})
     }
 
@@ -36,7 +34,6 @@ class Home extends Component {
         const {randomProfession} = this.state 
         return(
             <div className = "home-container">
-                <Header/>
             <div className = "home-content-container">
                 <div className = "name-container">
                     <h1 className = "name" >Im, Sai</h1>

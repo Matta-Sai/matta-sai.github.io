@@ -1,4 +1,3 @@
-import Header from "../Header"
 import DatabasesCert from '../../assets/databases-cert.jpg' 
 import CliCert from '../../assets/git&cli-cert.png' 
 import JsCert from '../../assets/javascript-cert.png' 
@@ -8,7 +7,6 @@ import "./index.css"
 
 const About = () => (
     <div className = "about-container"> 
-    <Header />
     <div className="about-content-container">
         <h1 className = "about-heading">About Me</h1>
         <p className="about-desc">Hello! I'm Sai, Currently Working As IT Support Assistant with 3 years of experience in providing technical support and troubleshooting. 

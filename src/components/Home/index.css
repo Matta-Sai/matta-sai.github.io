@@ -33,6 +33,8 @@
     font-weight: 600;
 }
 
+
+
 .profession {
     color: #ffffff;
     font-size: 32px;
@@ -51,7 +53,6 @@
     outline: none;
     cursor: pointer;
     margin: 8px;
-    color: red;
 }
 
 .link-icon {
@@ -62,4 +63,18 @@
 .link-icon:hover {
     color: #4f95f7;
     transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+    .name {
+        font-size: 48px;
+    }
+
+    .profession-sub {
+        font-size: 20px;
+    }
+
+    .profession {
+        font-size: 24px;
+    }
 }
