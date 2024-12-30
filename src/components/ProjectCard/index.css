@@ -1,0 +1,37 @@
+.project-card{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 1%;
+    margin: 1%;
+    border: 1px solid #e0e0e0;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.project-image{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.project-card:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s;
+}
+
+.project-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 1% 0;
+}
+
+@media screen and (max-width: 768px){
+    .project-title {
+        font-size: 12px;
+    }
+    .project-card{
+        width: 100%;
+    }
+    
+}
