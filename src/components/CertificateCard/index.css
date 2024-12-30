@@ -1,0 +1,32 @@
+.certificate-img {
+    width: 100%;
+    border-radius: 10%;
+    margin: 0 auto;
+}
+
+.certificate-card {
+    width: 140px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.certificate-title {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .certificate-card {
+        width: 40%;
+        margin: 6px;
+        padding: 3px;
+        border-radius: 6px;
+    }
+}
