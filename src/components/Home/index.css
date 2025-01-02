@@ -2,15 +2,18 @@
 .home-container {
     display: flex;
     flex-direction: column;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
 }
 
 .home-content-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 5%;
     font-family: "Open Sans";
 }

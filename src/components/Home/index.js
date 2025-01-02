@@ -1,5 +1,6 @@
 import {Component} from "react"
 import About from "../About"
+//import ParticlesComponent from "../ParticlesComponent"
 import Projects from '../Projects'
 import Resume from "../../assets/Matta-Sai-Resume-20241230.pdf"
 import { BsFacebook ,BsInstagram,BsLinkedin,BsGithub  } from "react-icons/bs";
@@ -37,6 +38,7 @@ class Home extends Component {
         const {randomProfession} = this.state 
         return(
             <>
+            {/* <ParticlesComponent />   */}
             <div className = "home-container">
             <div className = "home-content-container">
                 <div className = "name-container">

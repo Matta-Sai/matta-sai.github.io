@@ -1,5 +1,6 @@
 import {Routes, Route} from "react-router-dom"
 
+import ParticlesComponent from "./components/ParticlesComponent"
 import Home from './components/Home'
 import About from './components/About'
 import Projects from './components/Projects'
@@ -10,6 +11,7 @@ import './App.css';
 
 const App = () => (
   <div className = "app-container">
+    <ParticlesComponent />
     <Header className = "header" />
     <div className = "app-body">
       <Routes>
@@ -18,6 +20,7 @@ const App = () => (
         <Route path = "/projects"  element = {<Projects />} />
       </Routes>
     </div>
+    
   </div>
 )
 
