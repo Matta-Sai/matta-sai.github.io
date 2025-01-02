@@ -35,7 +35,7 @@ const ParticlesComponent = () => {
           value: "transparent"
         },
         image: "",
-        position: "",
+        position: "absolute",
         repeat: "",
         size: "",
         opacity: 1
@@ -367,7 +367,7 @@ const ParticlesComponent = () => {
         size: {
           value: {
             min: 1,
-            max: 10
+            max: 3
           },
           animation: {
             count: 0,

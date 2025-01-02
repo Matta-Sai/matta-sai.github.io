@@ -2,11 +2,15 @@
 .projects-container {
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
     color: #ffffff;
     font-family: "Open Sans";
     align-items: center;
+    border-radius: 15px;
+    border: 1px solid rgba(43, 43, 43, 0.568);
+    backdrop-filter: blur(10px);
 }
 
 .projects-list{

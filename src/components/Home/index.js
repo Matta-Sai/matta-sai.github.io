@@ -1,49 +1,50 @@
 import {Component} from "react"
 import About from "../About"
-//import ParticlesComponent from "../ParticlesComponent"
+import ParticlesComponent from "../ParticlesComponent"
 import Projects from '../Projects'
+import ContactForm from "../ContactForm"
 import Resume from "../../assets/Matta-Sai-Resume-20241230.pdf"
 import { BsFacebook ,BsInstagram,BsLinkedin,BsGithub  } from "react-icons/bs";
 import "./index.css"
 
 
-const professionsList = [
-    "Full Stack Devoloper","Photographer", "Tech Enthusiast ", "IT Support Ast", 
-]
+// const professionsList = [
+//     "Full Stack Devoloper","Photographer", "Tech Enthusiast ", "IT Support Ast", 
+// ]
 
 class Home extends Component {
     state = {
-        randomProfession : "Full Stack Devoloper"
+        randomProfession : "Aspiring React Developer"
     }
 
-    componentDidMount() {
-        this.startInterval()
-    }
+    // componentDidMount() {
+    //     this.startInterval()
+    // }
 
-    componentWillUnmount() {
-        clearInterval(this.intervalId)
-    }
+    // componentWillUnmount() {
+    //     clearInterval(this.intervalId)
+    // }
 
-    startInterval = () => {
-        const intervalId = setInterval(this.randomizeProfession, 3000)
-        console.log(intervalId)
-    }
+    // startInterval = () => {
+    //     const intervalId = setInterval(this.randomizeProfession, 3000)
+    //     console.log(intervalId)
+    // }
 
-    randomizeProfession = () => {
-        const randomNumber = Math.floor(Math.random() * (professionsList.length))
-        this.setState({randomProfession : professionsList[randomNumber]})
-    }
+    // randomizeProfession = () => {
+    //     const randomNumber = Math.floor(Math.random() * (professionsList.length))
+    //     this.setState({randomProfession : professionsList[randomNumber]})
+    // }
 
     render() {
         const {randomProfession} = this.state 
         return(
             <>
-            {/* <ParticlesComponent />   */}
             <div className = "home-container">
+            <ParticlesComponent />   
             <div className = "home-content-container">
                 <div className = "name-container">
                     <h1 className = "name" >Im, Sai</h1>
-                    <p className ="profession-sub">I'm a <span className= "profession">{randomProfession}</span></p>
+                    <p className ="profession-sub">I'm an <span className= "profession">{randomProfession}</span></p>
                 </div>
                 <div className = "links-container">
                     <button className="link-item">
@@ -74,6 +75,7 @@ class Home extends Component {
             </div>
             <About />
             <Projects />
+            <ContactForm /> 
             </>
         )
     }
