@@ -1,5 +1,6 @@
 import {Component} from "react"
 import About from "../About"
+import Footer from "../Footer"
 import ParticlesComponent from "../ParticlesComponent"
 import Projects from '../Projects'
 import ContactForm from "../ContactForm"
@@ -76,6 +77,7 @@ class Home extends Component {
             <About />
             <Projects />
             <ContactForm /> 
+            <Footer />
             </>
         )
     }

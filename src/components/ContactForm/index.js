@@ -50,16 +50,13 @@ export default ContactForm;
 
 // Styles
 const StyledContactForm = styled.div`
-    width: 80%;
     display: flex;
     height: 100vh;
     justify-self: center;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin-right :2%
-    margin-left: 2%;
-    margin-bottom: 2%;
+    margin:2%;
     align-self: center;
     font-family: "Open Sans";
     background-size: cover;
@@ -91,7 +88,7 @@ const StyledContactForm = styled.div`
       border: 1px solid rgb(220, 220, 220);
 
       &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
+        border: 2px solid black;
       }
     }
 
@@ -107,7 +104,7 @@ const StyledContactForm = styled.div`
       border: 1px solid rgb(220, 220, 220);
 
       &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
+        border: 2px solid black;
       }
     }
 
@@ -122,9 +119,15 @@ const StyledContactForm = styled.div`
       cursor: pointer;
       width: 60%;
       align-self: center;
-      background: rgb(50, 113, 168);
+      background: transparent;
+      border: 1px solid white;
       color: white;
-      border: none;
+      transition: all 0.3s ease;
+    }
+      input[type="submit"]:hover {
+        transform: scale(1.1);
+        background: blue;
+        border: 1px solid blue;
     }
   }
 `;
